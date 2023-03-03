@@ -1,0 +1,29 @@
+.Form{
+    display: flex;
+    gap: 8px;
+    padding: 20px;
+}
+.Form--input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-family: 'Poppins', sans-serif;
+}
+.Form--input-label{
+    font-size: 12px;
+}
+.Form--input{
+    padding: 8px;
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+}
+.Form--button{
+    padding: 8px;
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    height: 39px;
+    margin-top:22px;
+}
+.Form--error{
+    border: 2px solid #ff0000;
+}
